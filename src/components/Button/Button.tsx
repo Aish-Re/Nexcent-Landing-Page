@@ -1,4 +1,4 @@
-import "./Button.scss"
+import './Button.scss'
 
 interface ButtonProps {
     text : string

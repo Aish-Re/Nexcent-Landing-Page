@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom';
 import Logo from '../../assets/Logo.svg'
 import Button from '../Button/Button';
 import Container from '../Container/Container';
-import "./Navbar.scss"
+import './Navbar.scss'
 
 const navMenus = [
     {
