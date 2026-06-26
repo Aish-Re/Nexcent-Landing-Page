@@ -1,0 +1,25 @@
+nav {
+    padding: 20px 0px;
+
+    .navbar-content{
+        display: flex;
+        justify-content: space-between;
+
+        .menus_btn{
+            display: flex;
+            gap: 30px;
+        }
+
+        .nav-menus{
+            display: flex;
+            gap: 30px;
+            list-style: none;
+
+            li{
+                text-decoration: none;
+            }
+        }
+
+        
+    }
+}
