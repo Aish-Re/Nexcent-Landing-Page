@@ -1,25 +1,23 @@
-nav {
+.navbar {
     padding: 20px 0px;
 
     .navbar-content{
         display: flex;
         justify-content: space-between;
+    }
 
-        .menus_btn{
-            display: flex;
-            gap: 30px;
-        }
+    .menu-actions{
+        display: flex;
+        gap: 30px;
+    }
 
-        .nav-menus{
-            display: flex;
-            gap: 30px;
-            list-style: none;
+    .nav-menus{
+        display: flex;
+        gap: 30px;
+        list-style: none;
 
-            li{
+            a{
                 text-decoration: none;
             }
         }
-
-        
-    }
 }

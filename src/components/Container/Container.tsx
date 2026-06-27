@@ -1,12 +1,13 @@
-import "./Container.scss"
+import './Container.scss'
 
 interface ContainerProps {
-    children : React.ReactNode
+    children : React.ReactNode;
+    className?: string;
 }
 
-function Container({children} : ContainerProps) {
+function Container({children, className} : ContainerProps) {
     return(
-        <div className="container">
+        <div className={`container ${className?? ""}`}>
             {children}
         </div>
     );

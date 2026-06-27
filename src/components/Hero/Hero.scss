@@ -1,0 +1,24 @@
+@use '../../styles/variables';
+
+.hero{
+    background-color: #F5F7FA;
+
+    .hero-content{
+        display: flex;
+    }
+
+    .hero-left{
+
+        h1{
+            color: variables.$text_color;
+        }
+
+        .hero-header{
+            color: variables.$primary_color;
+        }
+
+        p{
+            color: variables.$description_color;
+        }
+    }
+}

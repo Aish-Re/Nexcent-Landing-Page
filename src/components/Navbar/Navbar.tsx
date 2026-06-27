@@ -33,14 +33,15 @@ const navMenus = [
 
 function Navbar() {
     return(
-        <nav>
+        <nav className="navbar">
             <Container>
                 <div className="navbar-content">
                     <div className="logo">
                         <img src={Logo} alt="Nexcent Logo"/>
                     </div>
+                    
 
-                    <div className="menus_btn">
+                    <div className="menu-actions">
                         <ul className="nav-menus">
                             {navMenus.map((navMenu) => (
                                 <li key={navMenu.name}><Link to={navMenu.path}>{navMenu.name}</Link></li>
