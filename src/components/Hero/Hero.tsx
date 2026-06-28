@@ -4,9 +4,11 @@ import './Hero.scss'
 import HeroImage from '../../assets/hero-image.png';
 
 function Hero() {
+    console.log("Hero rendered");
+
     return(
         <section className="hero">
-            <Container>
+            <Container className="hero-content">
                 <div className="hero-left">
                     <h1>Lessons and insights <br /><span className="hero-header">from 8 years</span></h1>
                     <p>Where to grow your business as a photographer: site or social media?</p>
@@ -17,7 +19,7 @@ function Hero() {
                 <div className="hero-right">
                     <img src={HeroImage} alt="Hero-Image" />
                 </div>
-        </Container>
+            </Container>
         </section>
     );
 }

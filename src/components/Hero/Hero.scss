@@ -2,13 +2,16 @@
 
 .hero{
     background-color: #F5F7FA;
+    height: 400px;
 
     .hero-content{
         display: flex;
+        justify-content: space-between;
+        align-items: center;
     }
 
     .hero-left{
-
+        line-height: 40px;
         h1{
             color: variables.$text_color;
         }
@@ -19,6 +22,11 @@
 
         p{
             color: variables.$description_color;
+            font-size: 12px;
         }
+    }
+
+    .hero-right{
+        align-items: center;
     }
 }
