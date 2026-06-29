@@ -1,0 +1,29 @@
+@use '../../styles/variables';
+
+.feature-content{
+    display: flex;
+
+    .feature-left{
+        flex: 40%;
+    }
+
+    .feature-right{
+        flex: 60%;
+        padding: 50px 0px;
+
+
+        h2{
+            color: variables.$text_color;
+            padding-bottom: 12px;
+        }
+
+        p{
+            color: variables.$description_color;
+            font-size: variables.$p_size;
+            line-height: 18px;
+            padding-bottom: 16px;
+            text-align: justify;
+            
+        }
+    }
+}
