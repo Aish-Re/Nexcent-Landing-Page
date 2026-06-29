@@ -1,0 +1,23 @@
+@use '../../styles/variables';
+@use '../../styles/mixins';
+
+.clients{
+    text-align:center ;
+    padding: 30px 0px;
+    line-height: 30px;
+
+    .client-header{
+        color: variables.$text_color;
+    }
+
+    .client-description{
+        color: variables.$description_color;
+        font-size: variables.$p_size;
+    }
+
+    .client-logos{
+        @include mixins.flex(center,center);
+        gap: 20px;
+
+    }
+}

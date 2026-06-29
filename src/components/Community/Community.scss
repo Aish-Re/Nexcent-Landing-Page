@@ -1,0 +1,37 @@
+@use '../../styles/variables';
+
+.community{
+    background-color: #F5F7FA;
+    text-align: center;
+    padding: 30px 0px;
+    line-height: 30px;
+
+    h2{
+        color: variables.$text_color;
+    }
+
+    p{
+        color: variables.$description_color;
+        font-size: variables.$p_size;
+    }
+
+    .community-cards{
+        gap: 40px;
+        display: flex;
+        margin-top: 30px;
+    }
+
+    .community-card{
+        border-radius: 6px;
+        padding: 20px;
+        background-color: white;
+
+        h3{
+            color: variables.$text_color;
+        }
+
+        p{
+            line-height: 20px;
+        }
+    }
+}

@@ -4,8 +4,6 @@ import './Hero.scss'
 import HeroImage from '../../assets/hero-image.png';
 
 function Hero() {
-    console.log("Hero rendered");
-
     return(
         <section className="hero">
             <Container className="hero-content">

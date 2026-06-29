@@ -1,19 +1,20 @@
 @use '../../styles/variables';
+@use '../../styles/mixins';
 
 .hero{
     background-color: #F5F7FA;
     height: 400px;
 
     .hero-content{
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
+        @include mixins.flex(space-between,center);
     }
 
     .hero-left{
         line-height: 40px;
         h1{
             color: variables.$text_color;
+            font-size: 40px;
+            line-height: 50px;
         }
 
         .hero-header{
@@ -27,6 +28,9 @@
     }
 
     .hero-right{
-        align-items: center;
+
+        img{
+            padding: 50px 0px;
+        }
     }
 }

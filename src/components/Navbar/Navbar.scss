@@ -1,9 +1,10 @@
+@use '../../styles/mixins';
+
 .navbar {
     padding: 20px 0px;
 
     .navbar-content{
-        display: flex;
-        justify-content: space-between;
+        @include mixins.flex(space-between,center);
     }
 
     .menu-actions{

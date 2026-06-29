@@ -6,10 +6,6 @@ interface ContainerProps {
 }
 
 function Container({children, className} : ContainerProps) {
-    console.log({
-    className,
-    children
-});
     return(
         <div className={`container ${className?? ""}`}>
             {children}
