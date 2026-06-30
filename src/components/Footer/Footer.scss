@@ -1,0 +1,48 @@
+@use '../../styles/variables';
+@use '../../styles/mixins';
+
+footer{
+    background-color: variables.$secondary-color;
+    padding: 50px 0px;
+
+    .footer-content{
+        @include mixins.flex(space-between,null);
+
+        .footer-info{
+            img{
+                padding-bottom: 14px;
+            }
+
+            p{
+                line-height: 18px;
+            }
+        }
+
+        h4{
+            color: #FFFFFF;
+            font-size: 15px;
+            padding-bottom: 14px;
+        }
+
+        p{
+            color: #d7dde4;
+            font-size: variables.$p-size;
+            padding-bottom: 6px;
+        }
+
+        .contact-email{
+            border-radius: 6px;
+            background-color: rgba(255, 255, 255, 0.2);
+            padding: 8px;
+            outline: none;
+            border: none;
+            color: #e0e4e9;
+
+            &::placeholder{
+                color: #e0e4e9;
+                font-size: variables.$p-size;
+                opacity: 1;
+            }
+        }
+    }
+}

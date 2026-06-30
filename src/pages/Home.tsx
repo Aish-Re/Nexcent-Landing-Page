@@ -6,6 +6,7 @@ import Feature1 from "../components/Feature/Feature1";
 import Stats from "../components/Stats/Stats";
 import Feature2 from "../components/Feature/Feature2";
 import Customers from "../components/Customers/Customers";
+import Footer from "../components/Footer/Footer";
 
 function Home() {
     return(
@@ -18,6 +19,7 @@ function Home() {
             <Stats />
             <Feature2 />
             <Customers />
+            <Footer />
         </>
     );
 }
