@@ -1,5 +1,5 @@
 import Container from "../Container/Container";
-import Feature from "../Feature/Feature";
+import Feature from "./Feature";
 import FeatureImage1 from '../../assets/Feature1-image.png'
 
 function Feature1() {
