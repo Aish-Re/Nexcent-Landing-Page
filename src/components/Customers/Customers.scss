@@ -1,0 +1,45 @@
+@use '../../styles/variables';
+@use '../../styles/mixins';
+
+.customers{
+    padding: 50px 30px;
+    padding-left: 80px;
+    background-color: variables.$secondary-bgcolor;
+
+    .customer-content{
+        @include mixins.flex(null,center);
+        gap: 150px;
+        text-align: justify;
+
+        .customer-details{
+            line-height: 18px;
+
+            .customer-comment,
+            .customer-company{
+                font-size: variables.$p-size;
+                color: variables.$description-color;
+            }
+
+            .customer-name,
+            .cta{
+                font-size: 15px;
+                font-weight: bold;;
+                color: variables.$primary-color;
+                padding:5px 0px;
+            }
+
+            .cta{
+                padding-top: 7px;
+                padding-left: 60px;
+            }
+            
+
+            .client-logos{
+                display : flex;
+                gap: 20px;
+                padding:7px 0px;
+            }
+
+        }
+    }
+}

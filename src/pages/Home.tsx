@@ -5,6 +5,7 @@ import Community from "../components/Community/Community";
 import Feature1 from "../components/Feature/Feature1";
 import Stats from "../components/Stats/Stats";
 import Feature2 from "../components/Feature/Feature2";
+import Customers from "../components/Customers/Customers";
 
 function Home() {
     return(
@@ -16,6 +17,7 @@ function Home() {
             <Feature1 />
             <Stats />
             <Feature2 />
+            <Customers />
         </>
     );
 }

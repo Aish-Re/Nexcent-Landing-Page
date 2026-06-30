@@ -4,11 +4,11 @@
     display: flex;
     padding: 0px 100px;
     background-color: variables.$primary-bgcolor;
+    align-items: center;
 
     .feature-left{
         flex: 1;
-
-
+        padding: 20px 0px;
     }
 
     .feature-right{
