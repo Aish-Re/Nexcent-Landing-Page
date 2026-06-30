@@ -7,6 +7,7 @@ import Stats from "../components/Stats/Stats";
 import Feature2 from "../components/Feature/Feature2";
 import Customers from "../components/Customers/Customers";
 import Footer from "../components/Footer/Footer";
+import Blogs from "../components/Blogs/Blogs";
 
 function Home() {
     return(
@@ -19,6 +20,7 @@ function Home() {
             <Stats />
             <Feature2 />
             <Customers />
+            <Blogs />
             <Footer />
         </>
     );
