@@ -2,17 +2,18 @@
 @use '../../styles/mixins';
 
 .clients{
+    background-color: variables.$primary-bgcolor;
     text-align:center ;
     padding: 30px 0px;
     line-height: 30px;
 
     .client-header{
-        color: variables.$text_color;
+        color: variables.$text-color;
     }
 
     .client-description{
-        color: variables.$description_color;
-        font-size: variables.$p_size;
+        color: variables.$description-color;
+        font-size: variables.$p-size;
     }
 
     .client-logos{

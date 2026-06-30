@@ -1,0 +1,19 @@
+@use '../../styles/variables';
+
+.stats-card{
+    display: flex;
+    gap: 20px;
+}
+
+.stats-details{
+    h3{
+        color: variables.$text-color;
+    }
+
+    p{
+        color: variables.$description-color;
+        font-size: variables.$p-size;
+    }
+
+
+}

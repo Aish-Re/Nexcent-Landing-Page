@@ -1,18 +1,18 @@
 @use '../../styles/variables';
 
 .community{
-    background-color: #F5F7FA;
+    background-color: variables.$secondary-bgcolor;
     text-align: center;
     padding: 30px 0px;
     line-height: 30px;
 
     h2{
-        color: variables.$text_color;
+        color: variables.$text-color;
     }
 
     p{
-        color: variables.$description_color;
-        font-size: variables.$p_size;
+        color: variables.$description-color;
+        font-size: variables.$p-size;
     }
 
     .community-cards{
@@ -27,7 +27,7 @@
         background-color: white;
 
         h3{
-            color: variables.$text_color;
+            color: variables.$text-color;
         }
 
         p{

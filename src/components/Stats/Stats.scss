@@ -1,0 +1,37 @@
+@use '../../styles/variables';
+@use '../../styles/mixins';
+
+.stats{
+    background-color: variables.$secondary-bgcolor;
+    
+    .stats-content{
+        @include mixins.flex(null,center);
+        gap: 200px;
+    }
+
+    .stats-left{
+        padding-left: 150px;
+        line-height: 30px;
+
+        h2{
+            color: variables.$text-color;
+            
+            span{
+                color: variables.$primary-color;
+            }
+        }
+
+        p{
+            color: variables.$description-color;
+            font-size: variables.$p-size;
+        }
+    }
+
+    .stats-right{
+        padding: 50px 0px;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 40px;
+        
+    }
+}

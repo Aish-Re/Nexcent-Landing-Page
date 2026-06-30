@@ -2,24 +2,28 @@
 
 .feature-content{
     display: flex;
+    padding: 0px 100px;
+    background-color: variables.$primary-bgcolor;
 
     .feature-left{
-        flex: 40%;
+        flex: 1;
+
+
     }
 
     .feature-right{
-        flex: 60%;
+        flex: 1;
         padding: 50px 0px;
-
+        max-width: 500px;
 
         h2{
-            color: variables.$text_color;
+            color: variables.$text-color;
             padding-bottom: 12px;
         }
 
         p{
-            color: variables.$description_color;
-            font-size: variables.$p_size;
+            color: variables.$description-color;
+            font-size: variables.$p-size;
             line-height: 18px;
             padding-bottom: 16px;
             text-align: justify;
@@ -27,3 +31,4 @@
         }
     }
 }
+

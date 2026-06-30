@@ -2,7 +2,7 @@
 @use '../../styles/mixins';
 
 .hero{
-    background-color: #F5F7FA;
+    background-color: variables.$secondary-bgcolor;
     height: 400px;
 
     .hero-content{
@@ -12,17 +12,17 @@
     .hero-left{
         line-height: 40px;
         h1{
-            color: variables.$text_color;
+            color: variables.$text-color;
             font-size: 40px;
             line-height: 50px;
         }
 
         .hero-header{
-            color: variables.$primary_color;
+            color: variables.$primary-color;
         }
 
         p{
-            color: variables.$description_color;
+            color: variables.$description-color;
             font-size: 12px;
         }
     }
