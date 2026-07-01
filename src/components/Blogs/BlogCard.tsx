@@ -9,8 +9,8 @@ function BlogCard ({image,title} : BlogCardProps){
             <img src={image} />
             
             <div className="blog-content">
-                <h4 className="blog-title">{title}</h4>
-                <p>Read More</p>
+                <h5 className="blog-title">{title}</h5>
+                <p className="blog-read-more">Read More</p>
             </div>
         </div>
     );
