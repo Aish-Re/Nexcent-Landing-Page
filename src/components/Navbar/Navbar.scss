@@ -18,9 +18,13 @@
         display: flex;
         gap: 30px;
         list-style: none;
+        align-items: center;
 
             a{
                 text-decoration: none;
+                color: black;
+                font-size: 15px;
+                font-weight: 500;
             }
         }
 }
