@@ -1,0 +1,44 @@
+@use '../../styles/variables';
+@use '../../styles/mixins';
+
+.blogs{
+    padding: 50px 0px;
+    text-align: center;
+
+    .blogs-header{
+        color: variables.$text-color;
+        line-height: 30px;
+    }
+
+    .blogs-description{
+        color: variables.$description-color;
+        font-size: variables.$p-size;
+        line-height: 70px;
+    }
+
+    .blog-cards{
+        @include mixins.flex(space-between,center);
+        gap: 30px;
+    }
+
+    .blog-card{
+        border-radius: 4px;
+
+        .blog-content{
+            background-color: #e8eaee;
+            line-height: 22px;
+            border-radius: 4px;
+            padding: 20px;
+
+            .blog-title{
+                padding-bottom: 10px;
+            }
+
+            .blog-read-more{
+                font-size: 15px;
+                font-weight: bold;
+                color: variables.$primary-color;
+            }
+        }
+    }
+}

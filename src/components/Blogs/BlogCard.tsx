@@ -9,7 +9,7 @@ function BlogCard ({image,title} : BlogCardProps){
             <img src={image} />
             
             <div className="blog-content">
-                <p>{title}</p>
+                <h4 className="blog-title">{title}</h4>
                 <p>Read More</p>
             </div>
         </div>
